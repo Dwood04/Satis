@@ -1,0 +1,55 @@
+{
+  "productionSetups": [
+    {
+      "name": "Iron Plate",
+      "productionRate": 30,
+      "bottleneck": false,
+      "inputs": [
+        {
+          "item": "Iron Ore",
+          "amount": 30
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Iron Plate",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Copper Wire",
+      "productionRate": 15,
+      "bottleneck": true,
+      "inputs": [
+        {
+          "item": "Copper Ore",
+          "amount": 15
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Copper Wire",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Concrete",
+      "productionRate": 20,
+      "bottleneck": false,
+      "inputs": [
+        {
+          "item": "Limestone",
+          "amount": 20
+        }
+      ],
+      "outputs": [
+        {
+          "item": "Concrete",
+          "amount": 20
+        }
+      ]
+    }
+  ]
+}
